@@ -340,7 +340,7 @@ public class CoffeesTable {
 
 
   public void dropTable() throws SQLException {
-    Statement stmt = null;
+	Statement stmt = null;
     try {
       stmt = con.createStatement();
       if (this.dbms.equals("mysql")) {
